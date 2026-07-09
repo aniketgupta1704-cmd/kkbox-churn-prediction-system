@@ -4,7 +4,9 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 import requests
+import os
 
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
 ASSETS = Path(__file__).parent.parent / "assets"
 
 @st.cache_data
@@ -22,8 +24,6 @@ def load_parquet(name):
 def esc(s):
     """Escape $ so Streamlit markdown doesn't render it as LaTeX."""
     return str(s).replace("$", "\\$")
-
-API_URL = "http://127.0.0.1:8000"   # overridden by env var at deploy time
 
 FEATURE_LABELS = {
     "seq_days_since_last": "Days since last transaction",
