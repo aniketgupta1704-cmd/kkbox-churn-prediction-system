@@ -1,0 +1,205 @@
+{
+  "menu_cases": [
+    {
+      "customer_id": 34858,
+      "base_risk": 0.713,
+      "recommended_action": "Reverse recent cancellation",
+      "new_risk": 0.179,
+      "reduction_pct": 74.9,
+      "all_actions": [
+        {
+          "intervention": "Reverse recent cancellation",
+          "new_prob": 0.179,
+          "reduction": 0.533,
+          "reduction_pct": 74.9
+        },
+        {
+          "intervention": "Enable auto-renew",
+          "new_prob": 0.323,
+          "reduction": 0.389,
+          "reduction_pct": 54.6
+        },
+        {
+          "intervention": "Re-engage (recent activity)",
+          "new_prob": 0.546,
+          "reduction": 0.167,
+          "reduction_pct": 23.4
+        },
+        {
+          "intervention": "Offer 20% loyalty discount",
+          "new_prob": 0.6,
+          "reduction": 0.113,
+          "reduction_pct": 15.8
+        }
+      ]
+    },
+    {
+      "customer_id": 47742,
+      "base_risk": 0.516,
+      "recommended_action": "Reverse recent cancellation",
+      "new_risk": 0.037,
+      "reduction_pct": 92.8,
+      "all_actions": [
+        {
+          "intervention": "Reverse recent cancellation",
+          "new_prob": 0.037,
+          "reduction": 0.478,
+          "reduction_pct": 92.8
+        },
+        {
+          "intervention": "Enable auto-renew",
+          "new_prob": 0.139,
+          "reduction": 0.377,
+          "reduction_pct": 73.0
+        },
+        {
+          "intervention": "Re-engage (recent activity)",
+          "new_prob": 0.362,
+          "reduction": 0.154,
+          "reduction_pct": 29.8
+        },
+        {
+          "intervention": "Offer 20% loyalty discount",
+          "new_prob": 0.396,
+          "reduction": 0.119,
+          "reduction_pct": 23.1
+        }
+      ]
+    }
+  ],
+  "single_lever_cases": [
+    {
+      "customer_id": 5178,
+      "base_risk": 0.861,
+      "recommended_action": "Enable auto-renew",
+      "new_risk": 0.025,
+      "reduction_pct": 97.0,
+      "all_actions": [
+        {
+          "intervention": "Enable auto-renew",
+          "new_prob": 0.025,
+          "reduction": 0.836,
+          "reduction_pct": 97.0
+        },
+        {
+          "intervention": "Re-engage (recent activity)",
+          "new_prob": 0.751,
+          "reduction": 0.11,
+          "reduction_pct": 12.7
+        },
+        {
+          "intervention": "Offer 20% loyalty discount",
+          "new_prob": 0.796,
+          "reduction": 0.065,
+          "reduction_pct": 7.5
+        },
+        {
+          "intervention": "Reverse recent cancellation",
+          "new_prob": 0.861,
+          "reduction": 0.0,
+          "reduction_pct": 0.0
+        }
+      ]
+    },
+    {
+      "customer_id": 74472,
+      "base_risk": 0.919,
+      "recommended_action": "Reverse recent cancellation",
+      "new_risk": 0.0,
+      "reduction_pct": 100.0,
+      "all_actions": [
+        {
+          "intervention": "Reverse recent cancellation",
+          "new_prob": 0.0,
+          "reduction": 0.919,
+          "reduction_pct": 100.0
+        },
+        {
+          "intervention": "Offer 20% loyalty discount",
+          "new_prob": 0.882,
+          "reduction": 0.037,
+          "reduction_pct": 4.0
+        },
+        {
+          "intervention": "Re-engage (recent activity)",
+          "new_prob": 0.907,
+          "reduction": 0.012,
+          "reduction_pct": 1.3
+        },
+        {
+          "intervention": "Enable auto-renew",
+          "new_prob": 0.919,
+          "reduction": 0.0,
+          "reduction_pct": 0.0
+        }
+      ]
+    },
+    {
+      "customer_id": 32167,
+      "base_risk": 0.918,
+      "recommended_action": "Re-engage (recent activity)",
+      "new_risk": 0.002,
+      "reduction_pct": 99.8,
+      "all_actions": [
+        {
+          "intervention": "Re-engage (recent activity)",
+          "new_prob": 0.002,
+          "reduction": 0.915,
+          "reduction_pct": 99.8
+        },
+        {
+          "intervention": "Offer 20% loyalty discount",
+          "new_prob": 0.893,
+          "reduction": 0.024,
+          "reduction_pct": 2.7
+        },
+        {
+          "intervention": "Enable auto-renew",
+          "new_prob": 0.918,
+          "reduction": 0.0,
+          "reduction_pct": 0.0
+        },
+        {
+          "intervention": "Reverse recent cancellation",
+          "new_prob": 0.918,
+          "reduction": 0.0,
+          "reduction_pct": 0.0
+        }
+      ]
+    },
+    {
+      "customer_id": 87129,
+      "base_risk": 0.815,
+      "recommended_action": "Offer 20% loyalty discount",
+      "new_risk": 0.304,
+      "reduction_pct": 62.7,
+      "all_actions": [
+        {
+          "intervention": "Offer 20% loyalty discount",
+          "new_prob": 0.304,
+          "reduction": 0.511,
+          "reduction_pct": 62.7
+        },
+        {
+          "intervention": "Enable auto-renew",
+          "new_prob": 0.815,
+          "reduction": 0.0,
+          "reduction_pct": 0.0
+        },
+        {
+          "intervention": "Reverse recent cancellation",
+          "new_prob": 0.815,
+          "reduction": 0.0,
+          "reduction_pct": 0.0
+        },
+        {
+          "intervention": "Re-engage (recent activity)",
+          "new_prob": 0.815,
+          "reduction": 0.0,
+          "reduction_pct": 0.0
+        }
+      ]
+    }
+  ],
+  "note": "Menu cases show prioritized multi-action recommendations; single-lever cases show one dominant action. 108 multi-lever customers exist in the rescuable band."
+}

@@ -1,0 +1,7 @@
+model,pr_auc,roc_auc,log_loss,notes
+"LightGBM (final, v2)",0.9146,0.9883,0.1208,"canonical: v2 features, total_paid removed, calibrated (no class-weight)"
+"LightGBM (Optuna-tuned, v1)",0.884,0.9809,,30-trial tuning on v1 features; +0.003 over baseline (negligible)
+LightGBM (v1 baseline),0.8813,0.9803,0.1567,baseline before feature engineering
+XGBoost (v1 baseline),0.878,0.98,,baseline
+RandomForest (v1 baseline),0.866,0.978,,baseline
+LogisticRegression (v1),0.686,0.962,,baseline; linear model floor

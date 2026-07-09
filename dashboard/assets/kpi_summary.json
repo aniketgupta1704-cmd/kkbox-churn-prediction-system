@@ -1,0 +1,42 @@
+{
+  "dataset": {
+    "total_users": 970960,
+    "modeled_population": 480853,
+    "population_note": "active subscribers (with transaction history)",
+    "base_churn_rate": 0.0622
+  },
+  "model": {
+    "name": "LightGBM (calibrated, no-treatment, v2 features)",
+    "pr_auc": 0.9146,
+    "roc_auc": 0.9883,
+    "log_loss": 0.1208,
+    "brier": 0.014,
+    "n_features": 30,
+    "calibration_note": "chosen over class-weighting for probability calibration (Brier 0.014 vs 0.037)",
+    "vs_v1_baseline": "v2 feature engineering: PR-AUC 0.8813 -> 0.9146; log loss 0.157 -> 0.121"
+  },
+  "business": {
+    "targeting_efficiency_model": 0.952,
+    "targeting_efficiency_random": 0.063,
+    "targeting_multiple": "~15x",
+    "base_case_net_benefit_ntd": 308623,
+    "base_case_return_pct": 308,
+    "model_vs_random": "+NT$309k vs -NT$75k",
+    "assumptions": "30% success, NT$30 offer, ~3mo protected, NT$100k budget, held-out test set",
+    "risk_concentration": "Critical segment (95%+) = 3.6% of customers but ~55% of total value-at-risk (NT$10.25M of ~NT$19M)",
+    "addressable_opportunity": "High + Very-High bands (50-95%): ~1,550 customers, ~NT$3.9M at risk, where interventions still work"
+  },
+  "mlops": {
+    "drift_features_flagged": 8,
+    "drift_total_features": 18,
+    "drift_note": "behavioral/pricing shift between established vs newer subscribers",
+    "synthetic_drift_validation": "3/3 injected drifts detected, 0 false positives",
+    "counterfactual_rescuable_customers": 108
+  },
+  "experiments": {
+    "log_trend_features": "tested and rejected (max corr 0.035) \u2014 churn is renewal-driven, not engagement-driven",
+    "optuna_trials": 30,
+    "optuna_finding": "hyperparameters not the bottleneck (tuned 0.884 vs baseline 0.8813, +0.003); features govern performance",
+    "total_paid_ablation": "removed as redundant recency proxy, -0.004 PR-AUC (noise)"
+  }
+}

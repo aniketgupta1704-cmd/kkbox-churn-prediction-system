@@ -1,0 +1,200 @@
+{
+  "temporal": {
+    "label": "temporal (older vs newer users)",
+    "drifted_count": 9.0,
+    "total": 18,
+    "share": 0.5,
+    "drifted_features": [
+      {
+        "feature": "txn_count",
+        "drift_score": 0.1465,
+        "drifted": true
+      },
+      {
+        "feature": "cancel_count",
+        "drift_score": 0.0147,
+        "drifted": false
+      },
+      {
+        "feature": "autorenew_share",
+        "drift_score": 0.1263,
+        "drifted": true
+      },
+      {
+        "feature": "last_plan_days",
+        "drift_score": 0.0255,
+        "drifted": false
+      },
+      {
+        "feature": "last_actual_paid",
+        "drift_score": 0.128,
+        "drifted": true
+      },
+      {
+        "feature": "last_list_price",
+        "drift_score": 0.1277,
+        "drifted": true
+      },
+      {
+        "feature": "last_discount",
+        "drift_score": 0.0147,
+        "drifted": false
+      },
+      {
+        "feature": "last_auto_renew",
+        "drift_score": 0.0399,
+        "drifted": false
+      },
+      {
+        "feature": "last_is_cancel",
+        "drift_score": 0.0039,
+        "drifted": false
+      },
+      {
+        "feature": "secs_total",
+        "drift_score": 0.1131,
+        "drifted": true
+      },
+      {
+        "feature": "active_days",
+        "drift_score": 0.1559,
+        "drifted": true
+      },
+      {
+        "feature": "completion_ratio",
+        "drift_score": 0.0968,
+        "drifted": false
+      },
+      {
+        "feature": "tenure_days",
+        "drift_score": 1.7836,
+        "drifted": true
+      },
+      {
+        "feature": "seq_days_since_last",
+        "drift_score": 0.1048,
+        "drifted": true
+      },
+      {
+        "feature": "seq_cancel_last3",
+        "drift_score": 0.0273,
+        "drifted": false
+      },
+      {
+        "feature": "seq_price_slope",
+        "drift_score": 0.0422,
+        "drifted": false
+      },
+      {
+        "feature": "seq_gap_widening",
+        "drift_score": 0.0385,
+        "drifted": false
+      },
+      {
+        "feature": "seq_mean_gap_days",
+        "drift_score": 0.116,
+        "drifted": true
+      }
+    ]
+  },
+  "synthetic": {
+    "label": "synthetic (injected drift)",
+    "drifted_count": 3.0,
+    "total": 18,
+    "share": 0.16666666666666666,
+    "drifted_features": [
+      {
+        "feature": "txn_count",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "cancel_count",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "autorenew_share",
+        "drift_score": 1.6835,
+        "drifted": true
+      },
+      {
+        "feature": "last_plan_days",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "last_actual_paid",
+        "drift_score": 0.3002,
+        "drifted": true
+      },
+      {
+        "feature": "last_list_price",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "last_discount",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "last_auto_renew",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "last_is_cancel",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "secs_total",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "active_days",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "completion_ratio",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "tenure_days",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "seq_days_since_last",
+        "drift_score": 0.938,
+        "drifted": true
+      },
+      {
+        "feature": "seq_cancel_last3",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "seq_price_slope",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "seq_gap_widening",
+        "drift_score": 0.0,
+        "drifted": false
+      },
+      {
+        "feature": "seq_mean_gap_days",
+        "drift_score": 0.0,
+        "drifted": false
+      }
+    ]
+  },
+  "temporal_headline": "8 behavioral features drifted between cohorts",
+  "synthetic_headline": "3/3 injected drifts detected, 0 false positives"
+}

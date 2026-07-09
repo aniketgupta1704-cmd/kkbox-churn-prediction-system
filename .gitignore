@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+uses/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Secrets / credentials
+kaggle.json
+*.env
+.env
+
+# OS
+.DS_Store
+
+# Large raw data (keep only processed samples the app needs)
+data/raw/
+*.parquet.bak
+
+# MLflow local runs (if present)
+mlruns/
+
+# Stray virtualenvs (junk)
+#/
+3.9.6/

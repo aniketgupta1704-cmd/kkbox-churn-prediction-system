@@ -1,0 +1,142 @@
+[
+  {
+    "customer_idx": 31,
+    "base_risk": 0.934,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.004,
+    "reduction_pct": 99.6
+  },
+  {
+    "customer_idx": 44,
+    "base_risk": 0.943,
+    "action": "Re-engage (recent activity)",
+    "new_risk": 0.102,
+    "reduction_pct": 89.2
+  },
+  {
+    "customer_idx": 69,
+    "base_risk": 0.736,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.008,
+    "reduction_pct": 98.9
+  },
+  {
+    "customer_idx": 107,
+    "base_risk": 0.61,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.268,
+    "reduction_pct": 56.0
+  },
+  {
+    "customer_idx": 146,
+    "base_risk": 0.683,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.008,
+    "reduction_pct": 98.8
+  },
+  {
+    "customer_idx": 242,
+    "base_risk": 0.946,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.001,
+    "reduction_pct": 99.9
+  },
+  {
+    "customer_idx": 264,
+    "base_risk": 0.942,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.002,
+    "reduction_pct": 99.8
+  },
+  {
+    "customer_idx": 954,
+    "base_risk": 0.844,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.007,
+    "reduction_pct": 99.1
+  },
+  {
+    "customer_idx": 962,
+    "base_risk": 0.89,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.003,
+    "reduction_pct": 99.7
+  },
+  {
+    "customer_idx": 987,
+    "base_risk": 0.732,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.02,
+    "reduction_pct": 97.3
+  },
+  {
+    "customer_idx": 1033,
+    "base_risk": 0.87,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.0,
+    "reduction_pct": 100.0
+  },
+  {
+    "customer_idx": 1084,
+    "base_risk": 0.635,
+    "action": "Re-engage (recent activity)",
+    "new_risk": 0.004,
+    "reduction_pct": 99.4
+  },
+  {
+    "customer_idx": 1122,
+    "base_risk": 0.693,
+    "action": "Re-engage (recent activity)",
+    "new_risk": 0.005,
+    "reduction_pct": 99.2
+  },
+  {
+    "customer_idx": 1140,
+    "base_risk": 0.939,
+    "action": "Re-engage (recent activity)",
+    "new_risk": 0.035,
+    "reduction_pct": 96.3
+  },
+  {
+    "customer_idx": 1162,
+    "base_risk": 0.798,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.002,
+    "reduction_pct": 99.8
+  },
+  {
+    "customer_idx": 1242,
+    "base_risk": 0.829,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.009,
+    "reduction_pct": 99.0
+  },
+  {
+    "customer_idx": 1332,
+    "base_risk": 0.75,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.003,
+    "reduction_pct": 99.6
+  },
+  {
+    "customer_idx": 1516,
+    "base_risk": 0.672,
+    "action": "Re-engage (recent activity)",
+    "new_risk": 0.159,
+    "reduction_pct": 76.4
+  },
+  {
+    "customer_idx": 1564,
+    "base_risk": 0.94,
+    "action": "Re-engage (recent activity)",
+    "new_risk": 0.371,
+    "reduction_pct": 60.6
+  },
+  {
+    "customer_idx": 1596,
+    "base_risk": 0.633,
+    "action": "Reverse recent cancellation",
+    "new_risk": 0.008,
+    "reduction_pct": 98.7
+  }
+]
